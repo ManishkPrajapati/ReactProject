@@ -1,0 +1,31 @@
+
+
+input{
+  font-weight:500;
+  min-width: 50%;
+  text-align: left;
+  align-items: center;
+}
+
+.item{
+  text-align: left;
+  margin-left: 20px;
+  min-width: 50%;
+}
+
+.butt{
+  min-width: 80px;
+  align-items:stretch;
+}
+
+.rome{
+  margin: 10px 5px;
+  min-width: 50%;
+}
+
+.todo{
+  align-items: center;
+}
+
+
+

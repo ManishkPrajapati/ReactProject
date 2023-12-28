@@ -1,0 +1,18 @@
+.lis{
+  font-size: medium;
+  color:rgb(78, 8, 144);
+  padding: 10px;
+}
+
+.hell{
+  color: brown;
+}
+
+.span{
+  font-weight: 400;
+  float:left;
+}
+
+.button{
+  float: right;
+}
