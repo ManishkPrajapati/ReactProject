@@ -1,31 +1,11 @@
-
-
-input{
-  font-weight:500;
-  min-width: 50%;
-  text-align: left;
-  align-items: center;
+input {
+  width: 100%;
 }
 
-.item{
-  text-align: left;
-  margin-left: 20px;
-  min-width: 50%;
-}
-
-.butt{
+.kg-button {
   min-width: 80px;
-  align-items:stretch;
 }
 
-.rome{
+.kg-row {
   margin: 10px 5px;
-  min-width: 50%;
 }
-
-.todo{
-  align-items: center;
-}
-
-
-

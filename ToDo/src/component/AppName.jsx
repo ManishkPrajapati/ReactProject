@@ -1,7 +1,7 @@
 import styles from "./AppName.module.css";
 
 function AppName() {
-  return <h2 className={styles.todoheading}>ToDo App</h2>;
+  return <h1 className={styles.todoHeading}>TODO App</h1>;
 }
 
 export default AppName;
