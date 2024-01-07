@@ -5,7 +5,7 @@ import { useState } from "react";
 const Fooditem = ({ items }) => {
   let [ActiveItems, SetActiveItems] = useState([]);
 
-  let onBuyButton = (item, event) => {
+  let onBuyButton = (item) => {
     let newItems = [...ActiveItems, item];
     SetActiveItems(newItems);
   };
