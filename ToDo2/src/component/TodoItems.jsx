@@ -3,7 +3,7 @@ import { TodoItemsContext } from "../store/todo-items-store";
 import TodoItem from "./TodoItem";
 import styles from "./TodoItems.module.css";
 
-const TodoItems = ({ onDeleteClick }) => {
+const TodoItems = () => {
   const { todoItems } = useContext(TodoItemsContext);
 
   return (
