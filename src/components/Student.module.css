@@ -1,0 +1,47 @@
+/* .head{
+    width: 80%;
+}
+
+.table_student{
+    margin: 10px;
+    padding: 15px;
+}
+.body{
+    margin: 10px;
+}
+.studentn{
+    font-size:large;
+    padding:70%;
+    margin: 10px 5px;
+    min-width: 80px;
+} */
+.table_student {
+    border: 5px solid rgba(90, 90, 90);
+    width: 200px;
+    border-radius: 10px;
+    margin: 10px;
+    width: 175px;
+    font-size: 25px;
+    border-color: blanchedalmond;
+   }
+   
+   .table_student th, .table_student td {
+    border: 1px solid #610202;
+    padding: 10px;
+    text-align: left;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+   }
+   
+   .table_student th {
+    background-color: #f2f2f2;
+   }
+   
+   .body {
+    color: black;
+   }
+   
+   .studentn {
+    font-weight: bold;
+   }
