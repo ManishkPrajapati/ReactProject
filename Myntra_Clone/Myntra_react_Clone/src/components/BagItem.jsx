@@ -1,9 +1,18 @@
-const BagItem = ({item}) => {
+import { useDispatch } from "react-redux";
+import { RiDeleteBin6Line } from "react-icons/ri";
+import { bagActions } from "../store/bagSlice";
+
+const BagItem = ({ item }) => {
+  const dispatch = useDispatch();
+  const handleRemoveItem = () => {
+    dispatch(bagActions.removeFromBag(item.id));
+  };
+
   return (
-    <div classNameName="bag-items-container">
+    <div className="bag-items-container">
       <div className="bag-item-container">
         <div className="item-left-part">
-          <img className="bag-item-img" src={item.image}/>
+          <img className="bag-item-img" src={item.image} />
         </div>
         <div className="item-right-part">
           <div className="company">{item.company}</div>
@@ -27,8 +36,8 @@ const BagItem = ({item}) => {
           </div>
         </div>
 
-        <div className="remove-from-cart" onclick={()=>console.log("item saved")}>
-          X
+        <div className="remove-from-cart" onClick={handleRemoveItem}>
+          <RiDeleteBin6Line />
         </div>
       </div>
     </div>
